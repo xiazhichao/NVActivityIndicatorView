@@ -43,7 +43,7 @@ class NVActivityIndicatorAnimationBallBeat: NVActivityIndicatorAnimationDelegate
         let scaleAnimation = CAKeyframeAnimation(keyPath: "transform.scale")
 
         scaleAnimation.keyTimes = [0, 0.5, 1]
-        scaleAnimation.values = [1, 0.75, 1]
+        scaleAnimation.values = [1, 0.65, 1]
         scaleAnimation.duration = duration
 
         // Opacity animation
