@@ -31,11 +31,11 @@ import UIKit
 class NVActivityIndicatorAnimationBallBeat: NVActivityIndicatorAnimationDelegate {
 
     func setUpAnimation(in layer: CALayer, size: CGSize, color: UIColor) {
-        let circleSpacing: CGFloat = 2
+        let circleSpacing: CGFloat = 16
         let circleSize = (size.width - circleSpacing * 2) / 3
         let x = (layer.bounds.size.width - size.width) / 2
         let y = (layer.bounds.size.height - circleSize) / 2
-        let duration: CFTimeInterval = 0.7
+        let duration: CFTimeInterval = 1.0
         let beginTime = CACurrentMediaTime()
         let beginTimes = [0.35, 0, 0.35]
 
